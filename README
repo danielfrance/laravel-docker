@@ -30,7 +30,7 @@ Prerequisites
 
 ```
 cd /path/to/your-laravel-project
-git clone ADD REPO LINK deploy
+git clone git@github.com:danielfrance/laravel-docker.git deploy
 ```
 
 This will add the Dockerfile, docker-compose.yml, and run.sh to your project under a /deploy directory.
