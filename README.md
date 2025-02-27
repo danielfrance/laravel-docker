@@ -47,9 +47,9 @@ chmod +x run.sh
 The `run.sh` file has to be executable prior to copying the file to the container.
 (If you want to keep the /deploy folder for versioning, feel free to adjust the paths in docker-compose.yml accordingly.)
 
-3. Compare you `.env` with the `docker-compose.yml` file
+3. Compare your `.env` with the `docker-compose.yml` file
 
-There are several environment variables in the docker-compose file. Ensure that they are accurate otherwise you may find connecting to the db difficult.
+There are several environment variables in the docker-compose file. Ensure that they are accurate, otherwise you may find connecting to the DB or Redis difficult.
 
 4. Double check the docker-compose ports
 
