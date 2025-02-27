@@ -126,22 +126,22 @@ Solution:
 
 ## Roadmap & Future Enhancements
 
-1️⃣ Harden Security
+1Harden Security
 
 - Use non-root users in the Dockerfile.
 - Apply read-only file permissions in production.
 
-2️⃣ Optimize Build
+Optimize Build
 
 - Use a multi-stage build to minimize image size.
 - Consider php-fpm + Nginx for better performance.
 
-3️⃣ Automate Deployments
+Automate Deployments
 
 - Integrate GitHub Actions for Docker builds.
 - Push images to Amazon ECR/GCP Artifact Registry.
 
-4️⃣ Kubernetes Integration
+Kubernetes Integration
 
 - Define Helm Charts for production Kubernetes deployments.
 - Set up Horizontal Pod Autoscaling (HPA) for Laravel workers.
